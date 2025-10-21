@@ -1,0 +1,22 @@
+@use "../base/mixins" as m;
+
+.cell {
+    @include m.no-select;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: var(--color-bg-cell);
+    color: var(--color-light);
+    font-size: 46px;
+    font-weight: 300;
+
+    &:hover {
+        background: var(--color-bg-cell-hover);
+    }
+}

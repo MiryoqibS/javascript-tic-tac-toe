@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    position: relative;
+    margin-inline: auto;
+    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+    padding-inline: var(--container-padding-x);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
